@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+#menu{
+    background-color: sandybrown;
+    cursor: pointer;
+}
+.list{
+    height: 100px    ;
+    background-color: yellow;
+    /* display:none; */
+    position: relative;
+    z-index: -1;
+    top: -100px;
+    transition: 1s all ease;
+}
+.list.active{
+    /* display:block; */
+    top: 0px;
+    background-color: red;
+}
